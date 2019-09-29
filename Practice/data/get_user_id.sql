@@ -1,0 +1,1 @@
+SELECT u.UserID, u.EmailID FROM credentials.Users u WHERE u.EmailID LIKE '%{emailId}%';
