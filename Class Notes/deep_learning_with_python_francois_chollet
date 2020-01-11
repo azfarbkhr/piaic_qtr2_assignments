@@ -1,0 +1,57 @@
+notes - deep learning with python by Francois Chollet
+
+Artificial intelligence was born in the 1950s
+
+many experts believed that human-level artificial intelligence could be achieved by having
+programmers handcraft a sufficiently large set of explicit rules for manipulating
+knowledge. This approach is known as symbolic AI ,
+
+In classical pro-gramming, the paradigm of symbolic AI, humans input rules (a program) and data to be processed according to these rules, and out come answers (see figure 1.2). With
+machine learning, humans input data as well as the answers expected from the data,
+and out come the rules. These rules can then be applied to new data to produce orig-
+inal answers.
+
+machine learning usually have following
+- input data points
+- expected output
+- performance feedback/measure
+
+central problem of ml/dl is to learn useful representations of the input data at hand—representations that get us closer to the expected output.
+
+what’s a representation? At its core, it’s a different way to look at data—to rep-
+resent or encode data.
+
+So that’s what machine learning is, technically: searching for useful representa-
+tions of some input data, within a predefined space of possibilities, using guidance
+from a feedback signal.
+
+Deep learning is a specific subfield of machine learning: a new take on learning repre-
+sentations from data that puts an emphasis on learning successive layers of increasingly
+meaningful representations.
+
+So that’s what deep learning is, technically: a multistage way to learn data representa-
+tions.
+
+layers > simple data transformations 
+
+To control something, first you need to be able to observe it. To control the output of
+a neural network, you need to be able to measure how far this output is from what you
+expected. This is the job of the loss function of the network, also called the objective
+function.
+
+The fundamental trick in deep learning is to use this score as a feedback signal to
+adjust the value of the weights a little, in a direction that will lower the loss score for
+the current example (see figure 1.9). This adjustment is the job of the optimizer, which
+implements what’s called the Backpropagation algorithm: the central algorithm in deep
+learning.
+
+
+
+other approaches to machine learning;
+- Probabilistic modeling >> bayes therom; assuming that all data features are independent of each other
+- Early neural networks >> a way to train chains of parametric operations using gradient-descent optimization
+- Kernel methods >> it aims at solving classification problems by finding good
+decision boundaries
+
+
+

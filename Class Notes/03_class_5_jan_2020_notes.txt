@@ -1,0 +1,37 @@
+notes 
+
+types of machine learning
+Supervised learning 
+	sequence generation >> eg: google photos auto caption our photos
+	syntax tree detection
+	object detection
+	Image segmentation 
+
+Unsupervised learning 
+this is most used in data anaytics and is used for understanding data
+	clustering
+	dimensionality reduction >> can also call it feature reduction; to reduce number of unnecessary columns by droping un-corelated columns and merging similar columns
+
+Self-supervised learning
+Where we have labelled data but system also marks it own labels
+
+Reinforcement learning
+	faltu baatain kar rha hay;
+	an agent receives info about environment and takes action to max its reward.
+	
+glossary for ml/ai >> read from book
+
+Evaluating ml model
+	generalizations >> running too many epochs can have adverse impact on accuracy; if we train the model too much then it overfits and model instead of predicting based on general features; it predicts based on specific features
+
+training, validation & test sets >> read from book
+
+
+
+Data Representation >> 
+the arrow of time
+overfitting and underfitting 
+
+
+Regularization techniques;
+- reducing the network's size >> 
